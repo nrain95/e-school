@@ -1,0 +1,84 @@
+.nav-link{
+  color: black;
+}
+.illustration img{
+  width: 75%;
+  margin-right: 100px;
+}
+body{
+  padding: 40px; 
+  background-color: #E5E5E5;
+}
+p{
+  color: blue;
+}
+.green-text{
+  color: green;
+}
+.h-100 img{
+  width: 25%;
+  margin-top: 15px;
+}
+.container{
+  margin-bottom: 100px;
+}
+.c-i img{
+  width: 50%;
+}
+.btn-sm{
+  color: white;
+  background-color: green;
+
+}
+.start img{
+  width: 10%;
+}
+.end img{
+  width: 12%;
+}
+small{
+  font-size: 90%;
+}
+.testy img{
+  width: 100%;
+}
+#test{
+  padding-left: 20%;
+  padding-right: 15%;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr ;
+  grid-gap: 2px;
+}
+.footer-grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.footer-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(auto-fill, 1fr 1fr 1fr); */
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 30px;
+  }
+  .footer-grid-1 {
+      display: flex;
+      flex-basis: 100%;
+      justify-content: center;
+  }
+  .footer-grid-2 {
+      display: flex;
+      flex-wrap: wrap;
+      flex-basis: 73%;
+      justify-content: center;
+  }
+}
+h1+h2+h3+h4+h5+h6{
+  margin-bottom: 30px;
+}
